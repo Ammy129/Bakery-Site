@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAKERY - Especially baked for you</title>
+    <link rel="icon" href="images/icon.svg" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR - AREA -->
+
+    <header>
+      <div class="container flex">
+        <figure class="logo">
+          <a href="#hero">
+            <img src="images/logo.svg" alt="Bakery logo" />
+          </a>
+        </figure>
+
+        <div class="menu menubtn">
+          <div class="bar one"></div>
+          <div class="bar two"></div>
+          <div class="bar three"></div>
+        </div>
+
+        <ul class="nav" id="navlist">
+          <li><a class="active" href="#hero">HOME</a></li>
+          <li>
+            <a href="https://ammygraphics.blogspot.com/">GRAPHIC WORK</a>
+          </li>
+          <li><a href="practise.html">PRACTICE PAGES</a></li>
+          <li><a href="http://sunil2020.000webhostapp.com/">SUNIL SIR</a></li>
+        </ul>
+
+        <div class="other-icons flex">
+          <img class="cart" src="images/cart.svg" alt="cart icon" />
+          <span class="items_count">0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- CART -->
+    <section class="cart-overlay">
+      <div class="cart-container">
+        <i class="fas fa-times cross"></i>
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+          <!-- Cart Items display here -->
+        </div>
+        <div class="cart-footer">
+          <h3>Your Total : $ <span class="total-amount">0</span></h3>
+          <button class="btn clear-btn">Clear Cart</button>
+          <button class="btn">Checkout</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO - AREA -->
+
+    <main id="hero" class="flex">
+      <div class="container flex">
+        <div class="text-wrapper">
+          <h1 class="title hero-title">
+            They are <span> baked</span> especially for you
+          </h1>
+          <p class="para hero-para">
+            Hi , here you will find the fresh and healthy baked Products. So
+            here you can see our menu.
+          </p>
+          <a href="#menu" class="btn primary-btn">view menu</a>
+        </div>
+        <figure class="hero-image">
+          <img src="images/hero-image.png" alt="Bakery food images " />
+        </figure>
+      </div>
+
+      <img src="images/wheat.png" alt="wheat" class="wheat-image" />
+    </main>
+
+    <!-- STORY - AREA -->
+
+    <section id="story">
+      <div class="container">
+        <h2 class="title">Our Story</h2>
+        <article class="story-wrapper">
+          <img src="images/story-image.png" class="story-image1" />
+          <p class="para">
+            Voluptatibus laudantium labore fugit quibusdam aliquid iusto unde ad
+            molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quam quidem consectetur labore ipsa neque esse quia illo ipsum
+            recusandae sapiente.
+          </p>
+          <img src="images/story-image2.png" class="story-image2" />
+        </article>
+      </div>
+
+      <img src="images/upperwave.svg" class="upperwave" />
+      <img src="images/lowerwave.svg" class="lowerwave" />
+    </section>
+
+    <!-- MENU - AREA -->
+
+    <section id="menu">
+      <div class="container">
+        <div class="title-wrapper flex">
+          <hr />
+          <h2 class="title">The Menu</h2>
+          <hr />
+        </div>
+
+        <div class="menu-container">
+          <!-- items display here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- INFORMATION - AREA -->
+
+    <section id="info">
+      <div class="container flex">
+        <div class="location">
+          <img src="images/location.svg" class="location-icon" />
+          <h2 class="subtitle">Location</h2>
+          <p class="timings">(Open Daily 7am-7pm)</p>
+          <p class="para">
+            We’re located in the Richmond district between 5th and 6th Avenues
+            on Balboa Street. Pick up irresistible treats, order lunch, or grab
+            a bite to take to Golden Gate Park. Email or call (415) 751-9690!
+          </p>
+        </div>
+        <div class="line"></div>
+        <div class="delivery">
+          <img src="images/delivery.svg" class="delivery-icon" />
+          <h2 class="subtitle">Delivery</h2>
+          <p class="para">
+            Can’t make it in to our store? Not a problem, have our authentic,
+            homestyle Russian baked goods delivered directly to your front door:
+            trycaviar.com, grubhub.com, or eat24.com!
+          </p>
+        </div>
+      </div>
+
+      <img src="images/upperwave.svg" class="upperwave" />
+    </section>
+
+    <!-- Quote - AREA -->
+
+    <section id="quote">
+      <div class="container">
+        <h2 class="quote-line">
+          " Cooking is at once child's play and adult joy."
+        </h2>
+      </div>
+    </section>
+
+    <!-- TEAM - AREA -->
+
+    <section id="team">
+      <div class="container">
+        <h2 class="title">Our team</h2>
+        <div class="chef-team flex">
+          <div class="chef">
+            <img src="images/chef-1.png" class="chef-image" />
+            <h3 class="chef-name">Olivio Logan</h3>
+            <h4 class="designation">Cupcake Specialist</h4>
+          </div>
+
+          <div class="chef">
+            <img src="images/chef-2.png" class="chef-image" />
+            <h3 class="chef-name">Elva Watson</h3>
+            <h4 class="designation">Donuts Specialist</h4>
+          </div>
+
+          <div class="chef">
+            <img src="images/chef-3.png" class="chef-image" />
+            <h3 class="chef-name">Chris James</h3>
+            <h4 class="designation">Muffins Specialist</h4>
+          </div>
+        </div>
+      </div>
+
+      <img src="images/wheat.png" alt="wheat-image" class="wheat-image" />
+    </section>
+
+    <!-- FOOTER - AREA -->
+
+    <footer>
+      <div class="container flex">
+        <div class="footer-content flex">
+          <div class="ques">
+            <h2 class="subtitle">Why Bakery ?</h2>
+            <p class="para">
+              Here you will find the fresh and healthy baked Products. So here
+              you can see our menu.
+            </p>
+          </div>
+
+          <div class="upper-block flex">
+            <div class="contact">
+              <h2 class="subtitle">Contact us</h2>
+              <p class="para">E-mail : bakery@gmail.com</p>
+              <p class="para">Ph no : +919999999999.</p>
+            </div>
+            <div class="follow">
+              <h2 class="subtitle">Follow us</h2>
+              <div class="social-links flex">
+                <img src="images/facebook-color.svg" alt="" class="social" />
+                <img src="images/instagram-color.svg" alt="" class="social" />
+                <img src="images/twitter-color.svg" alt="" class="social" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lower-block flex">
+          <div class="input-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Send Your E-mail"
+              required
+            />
+            <button class="btn">subscribe</button>
+          </div>
+          <div class="logo">
+            <img src="images/logo.svg" alt="Bakery logo" />
+          </div>
+        </div>
+      </div>
+
+      <img src="images/upperwave.svg" class="upperwave" />
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
